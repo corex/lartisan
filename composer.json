@@ -1,7 +1,7 @@
 {
-    "name": "corex/lcommand",
-    "type": "project",
-    "description": "Laravel Command (artisan, commands, visibility)",
+    "name": "corex/lconsole",
+    "type": "library",
+    "description": "Laravel Console (artisan, commands, visibility)",
     "license": "MIT",
     "keywords": [
         "laravel",
@@ -11,9 +11,7 @@
     "authors": [
         {
             "name": "CoRex",
-            "email": "dev@corex.dk",
-            "homepage": "http://corex.dk",
-            "role": "Project Founder"
+            "email": "dev@corex.dk"
         }
     ],
     "require": {
@@ -26,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "CoRex\\Laravel\\Command\\": "src/"
+            "CoRex\\Laravel\\Console\\": "src/"
         }
     }
 }

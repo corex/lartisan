@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+require_once(__DIR__ . '/vendor/autoload.php');
+
+$artisan = new \CoRex\Laravel\Console\Artisan(__DIR__);
+
+// Set name on artisan.
+//$artisan->setName('name');
+
+// Set version on artisan.
+//$artisan->setVersion('x.y.z');
+
+// Add single command.
+//$artisan->addCommand(MyCommand::class);
+
+// Add multiple commands on specified path.
+//$artisan->addCommandsOnPath(path-to-commands, true, '');
+
+$artisan->execute();
